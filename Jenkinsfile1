@@ -6,6 +6,11 @@ pipeline {
     }
     
     stages {
+        stage ("clean workspace") {
+            steps {
+                cleanWs()
+            }
+        }
         
         stage ("Git Checkout") {
             steps {
