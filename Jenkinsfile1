@@ -33,6 +33,7 @@ pipeline {
                 
                 withCredentials([aws(accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'awslogin', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY')]) {
                     dir('terraformfiles') {
+                    sh 'ansible-playbook ansiblebook.yml'
                     sh 'sudo chmod 600 zomato.pem'
                     sh 'terraform init'
                     sh 'terraform validate'
