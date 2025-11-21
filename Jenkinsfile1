@@ -12,3 +12,5 @@ pipeline {
                 git 'https://github.com/pankajmali-07/Zomato.git'
             }
         }
+     }
+}
