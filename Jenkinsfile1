@@ -12,5 +12,10 @@ pipeline {
                 git 'https://github.com/pankajmali-07/Zomato.git'
             }
         }
+       stage ("Build Docker Image") {
+            steps {
+                sh "docker build -t pankaj0791/zomatoapp:1.0 ."
+            }
+        }
      }
 }
