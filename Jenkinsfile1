@@ -17,11 +17,7 @@ pipeline {
                 sh "docker build -t pankaj0791/zomatoapp:1.0 ."
             }
         }
-        stage ("clean workspace") {
-            steps {
-                cleanWs()
-            }
-        }
+       
     stage ("Tag & Push to DockerHub") {
             steps {
                 script {
