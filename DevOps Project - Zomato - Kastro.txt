@@ -1,6 +1,6 @@
-DevOps - Capstone Project fffffffffffffffork
-Deployment of ZOMATO Project
---------------------------------------------
+DevOps - Capstone Project               Succsessfully Done by pankaj Mali
+Deployment of ZOMATO Project            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 1. Launch an Instance (Ubuntu, 24.04, t2.large, 30 GB)
 
@@ -711,6 +711,7 @@ Kind Request:
 Once after you have successfully deployed the App, kindly share your experience on LinkedIn by Tagging me and also provide the YouTube link of this project in your post, as it helps others to access the video quickly. 
 ========================================================================================================
 												HAPPY LEARNING
+
 
 
 
